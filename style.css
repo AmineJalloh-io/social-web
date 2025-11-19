@@ -1,0 +1,45 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f3f3f3;
+}
+
+
+.container {
+max-width: 400px;
+margin: 60px auto;
+padding: 20px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+
+.form-box {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+
+.hidden { display: none; }
+
+
+input, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+
+button {
+padding: 10px;
+border: none;
+background: #0066ff;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+.post h4 { margin: 0 0 5px; }

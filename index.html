@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media - Login / Register</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h2>Welcome to MySocial</h2>
+
+    <div id="forms">
+        <!-- Login Form -->
+        <div id="loginForm" class="form-box">
+            <h3>Login</h3>
+            <input id="loginEmail" type="email" placeholder="Email" />
+            <input id="loginPass" type="password" placeholder="Password" />
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <span class="link" onclick="showRegister()">Register</span></p>
+        </div>
+
+        <!-- Register Form -->
+        <div id="registerForm" class="form-box hidden">
+            <h3>Create Account</h3>
+            <input id="regName" type="text" placeholder="Full Name" />
+            <input id="regEmail" type="email" placeholder="Email" />
+            <input id="regPass" type="password" placeholder="Password" />
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <span class="link" onclick="showLogin()">Login</span></p>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
